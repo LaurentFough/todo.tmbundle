@@ -12,7 +12,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(TODO|FIXME|CHANGED)\b</string>
+			<string>\b([ ]|[x]|BUG|CROSS-REF|DATE|DBG|DBUG|DEBUG|DO|DONE|FIX|FIXIT|FIXME|HACK|INF|INFO|ISSUE|KLUDGE|MONITOR|NOTE|OPTIMIZE|REF|REVIEW|TEST|TODO|TO-DO|URL|XXX)\b</string>
 			<key>name</key>
 			<string>storage.type.class.${1:/downcase}</string>
 		</dict>
